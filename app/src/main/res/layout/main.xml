@@ -41,7 +41,6 @@
                 android:layout_below="@+id/scrollView2"
                 android:layout_alignStart="@+id/scrollView2"
                 android:layout_marginTop="43dp"
-                android:onClick="CerrarSesion"
                 android:nestedScrollingEnabled="false" />
 
             <ImageView
