@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <!---
+    <Button
+        android:id="@+id/playvideoplayer"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="- PLAY Video -"
+        />
+
+-->
+    <VideoView
+        android:id="@+id/videoview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SKIP"
+        android:id="@+id/buttonSaltarVideo"
+        android:layout_gravity="left|top"
+        android:textSize="30sp"
+        android:background="#00ffffff"
+        android:onClick="saltarsevideo" />
+
+
+</FrameLayout>
